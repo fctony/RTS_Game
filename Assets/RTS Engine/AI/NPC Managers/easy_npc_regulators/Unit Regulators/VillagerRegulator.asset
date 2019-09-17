@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa285298ddeb814b84fa338de13efc9, type: 3}
+  m_Name: VillagerRegulator
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 114292848559976260, guid: 8d0703b2c0bc30d44b3553a37c906203, type: 2}
+  minAmountRange:
+    min: 3
+    max: 3
+  maxAmountRange:
+    min: 8
+    max: 10
+  maxPendingAmount: 1
+  createOnDemand: 1
+  startCreatingAfter:
+    min: 0
+    max: 2
+  spawnReloadRange:
+    min: 3
+    max: 5
+  ratioRange:
+    min: 0.1
+    max: 0.25
+  autoCreate: 1

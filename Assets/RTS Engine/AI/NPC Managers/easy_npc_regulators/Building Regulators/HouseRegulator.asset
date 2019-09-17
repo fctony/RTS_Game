@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177a20c994cac944f805afd73219f88c, type: 3}
+  m_Name: HouseRegulator
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 114715181527622238, guid: 7d7eb9974415d744bb7b3c205c7e4d54, type: 2}
+  minAmountRange:
+    min: 2
+    max: 2
+  maxAmountRange:
+    min: 3
+    max: 5
+  maxPendingAmount: 2
+  createOnDemand: 1
+  startCreatingAfter:
+    min: 0
+    max: 2
+  spawnReloadRange:
+    min: 3
+    max: 5
+  placementOptionInfo: 
+  placementOption: 0
+  buildAroundDistance: 3

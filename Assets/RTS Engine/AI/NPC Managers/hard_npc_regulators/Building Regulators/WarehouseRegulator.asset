@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177a20c994cac944f805afd73219f88c, type: 3}
+  m_Name: WarehouseRegulator
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 114125571650280414, guid: 926d54fcb19f187488abed77ed850d00, type: 2}
+  minAmountRange:
+    min: 1
+    max: 1
+  maxAmountRange:
+    min: 1
+    max: 1
+  maxPendingAmount: 1
+  createOnDemand: 1
+  startCreatingAfter:
+    min: 7
+    max: 10
+  spawnReloadRange:
+    min: 5
+    max: 10
+  placementOption: 2
+  placementOptionInfo: Food
+  buildAroundDistance: 3

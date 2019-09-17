@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa285298ddeb814b84fa338de13efc9, type: 3}
+  m_Name: KnightRegulator
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 114883034493695710, guid: d939995db516ba24b8448db79aefcc67, type: 2}
+  minAmountRange:
+    min: 3
+    max: 3
+  maxAmountRange:
+    min: 9
+    max: 12
+  maxPendingAmount: 3
+  createOnDemand: 1
+  startCreatingAfter:
+    min: 10
+    max: 15
+  spawnReloadRange:
+    min: 5
+    max: 10
+  ratioRange:
+    min: 0.2
+    max: 0.25
+  autoCreate: 1

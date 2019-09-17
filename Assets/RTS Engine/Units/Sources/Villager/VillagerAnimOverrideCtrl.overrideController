@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: VillagerAnimOverrideCtrl
+  m_Controller: {fileID: 9100000, guid: 4f28c54bfb24b3a489502c2758d6e46e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 55b2840a3c513db48b88350b9279297a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4047fff50abe6c749a87d27765089ed6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5280842a9055ca42b35c980f849a54b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4047fff50abe6c749a87d27765089ed6, type: 2}

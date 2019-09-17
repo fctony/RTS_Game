@@ -1,0 +1,9 @@
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+A. UI Pack: RPG Expansion (https://kenney.nl/assets/ui-pack-rpg-expansion)
+B. Castle Kit (https://kenney.nl/assets/castle-kit)
+C. Nature Pack Extended (https://kenney.nl/assets/nature-pack-extended)
+
+License: (CC0 1.0 Universal) You're free to use these game assets in any project, personal or commercial. There's no need to ask permission before using these. Giving attribution is not required, but is greatly appreciated!
+
+More about the CC0 1.0 Universal license: https://creativecommons.org/publicdomain/zero/1.0/

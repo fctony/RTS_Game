@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992e646db1208fc46bbbe5ddc17aa7f5, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  Name: Wood
+  StartingAmount: 400
+  Icon: {fileID: 21300000, guid: 0b0cd6fb1fb6fb54d892c5c0c6da0353, type: 3}
+  MinimapIconColor: {r: 0.5294118, g: 0.31764707, b: 0, a: 1}
+  SelectionAudio: {fileID: 8300000, guid: d1021d8b182525d439ad7569e1e061be, type: 3}
+  CollectionAudio:
+  - {fileID: 8300000, guid: d1021d8b182525d439ad7569e1e061be, type: 3}
